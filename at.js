@@ -109,8 +109,17 @@ div.style.borderRadius = "100px"
 
 
 //estilizando os botões
-
-posi.style.margin = "10px"
+posi.style.margin = "5px"
 neg.style.margin = "10px"
 div.style.margin = "10px"
 multi.style.margin = "10px"
+
+//estilizando a div dos botões
+div2.style.padding = "5px 10px"
+div2.style.backgroundColor = "#ffc6a5"
+div2.style.borderRadius = "15px"
+
+//estilizando o resultado
+p.style.padding = "5px 10px"
+p.style.backgroundColor = "#ffc6a5"
+p.style.borderRadius = "15px"
