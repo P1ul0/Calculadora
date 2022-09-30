@@ -26,8 +26,10 @@ multi.textContent = "*"
 // criando as div
 const div = document.createElement("div")
 body.appendChild(div);
-const div2 = document.createElement("div2")
+const div2 = document.createElement("div")
 body.appendChild(div2);
+const div3 = document.createElement("div")
+body.appendChild(div3)
 
 // saida do resultado
 const p = document.createElement("p")
@@ -43,6 +45,11 @@ div2.appendChild(posi);
 div2.appendChild(neg);
 div2.appendChild(divi);
 div2.appendChild(multi);
+
+//colocando as div's dentro de uma div(unica)
+div3.appendChild(div)
+div3.appendChild(div2)
+div3.appendChild(p)
 
 // js
 
@@ -118,6 +125,16 @@ multi.style.margin = "10px"
 div2.style.padding = "5px 10px"
 div2.style.backgroundColor = "#ffc6a5"
 div2.style.borderRadius = "15px"
+
+//estilizando a div central
+div3.style.display = "flex"
+div3.style.flexDirection = "column"
+div3.style.justifyContent = "flex-end"
+div3.style.alignItems = "center"
+div3.style.height = "200px"
+div3.style.width = "500px"
+div3.style.backgroundColor = "#ffc6a5"
+div3.style.borderRadius ="200px"
 
 //estilizando o resultado
 p.style.padding = "5px 10px"
