@@ -3,7 +3,7 @@ import {BsCalculator} from "react-icons/bs"
 
 export const Container = styled.header`
     height: 100px;
-    background-color: black;
+    background-color: #0B2447;
     display: flex;
     justify-content: center;
 `
@@ -14,12 +14,13 @@ export const Img = styled(BsCalculator)`
     height: 80px;
     width: 80px;
     margin: 10px 23px ;
-    color: #DC0000;
+    color: #F5F3C1;
 `
 
 export const TextHeader = styled.p`
     align-self: center;
     font-size: 60px;
     font-weight: bolder;
-    color: #DC0000;
+    color: #F5F3C1;
 `
+
